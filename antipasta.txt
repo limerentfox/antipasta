@@ -1,0 +1,29 @@
+# this uses osascript which is apples scripting language or something
+# your going to want to run this in a terminal shell and put it to the side
+# to run: 
+# first make sure the shell instance is in the directory that you stored this program in
+# then run this script with the osascript command
+# examples will be given 
+# to enable copy paste just kill the shell instance running this file
+# ------ you can check what directory your shell instance is in by using the pwd command
+# ------ use the ls command to see what is contained in the directory that the shell instance is using, also known as the working directory
+# ------ use the cd command followed by the destination directory to change your working directory to the destination directory
+# ------------- example:
+# ------------- christi@coolkat: pwd
+# ------------- /Users/christi
+# ------------- christi@coolkat: ls 
+# ------------- Applications Library Desktop Documents PICK_ME_IM_KAT
+# ------------- christi@coolkat: cd PICK_ME_IM_KAT
+# ------------- christi@coolkat: pwd
+# ------------- /Users/christi/PICK_ME_IM_KAT
+# ------------- christi@coolkat: ls
+# ------------- antipasta.txt other_random_shit.txt
+# ------------- christi@coolkat: osascript antipasta.txt
+# ------------- (blank but trust me its running)
+# kill the program by pressing control-c keyboard shortcut
+
+
+repeat
+set the clipboard to ""
+delay 1
+end repeat
